@@ -14,4 +14,4 @@
 >* git add [filename]:把工作目录下的文件加入到缓存区
 >* git diff:查看工作目录和缓存区的差异
 >* git commit:保存Git仓库内缓存区的文件改动
-
+>* git log:查看git仓库修改日志
