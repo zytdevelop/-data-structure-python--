@@ -8,3 +8,6 @@
 >* **ALTER TABLE**:changes an existing table[alter table[table name] add column[column name]]
 >* **UPDATE**:edits a row in a table
 >* **DELETE FROM**:delete rows from a table
+***
+INSERT INTO 插入新的行
+ALTER TABLE [table name] ADD COLUMN [column name] 插入新的列
