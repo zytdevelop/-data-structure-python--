@@ -1,7 +1,7 @@
 # SQL学习笔记(SQLite)
 
 ***
-## 字句(clause)
+## 子句(clause)
 >* **CREATE TABLE**
 >* **INSERT INTO [tablename](colums1, colums2,..) VALUES(value1, value2, ...)
 >* **SELECT**:queries data from a table [select [column name] from [table name]]
