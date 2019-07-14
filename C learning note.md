@@ -6,7 +6,7 @@
 ***
 >* 例:
 
-'''c++
+'''c
   #include<iostream>
   int main()
   {
