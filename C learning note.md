@@ -6,7 +6,7 @@
 
 >* 例:
 
-'''c/c++
+
   #include<iostream>
   int main()
   {
@@ -23,4 +23,4 @@
     cout << endl << count << " characters read\n";
     return 0;
   }
-'''
+
