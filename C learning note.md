@@ -7,7 +7,7 @@
 >* 例:
 
 '''c/c++
-#include<iostream>
+  #include<iostream>
 int main()
 {
   using namespace std;
