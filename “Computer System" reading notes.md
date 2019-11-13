@@ -34,21 +34,3 @@
 2.C语言的**sizeof运算符**可以确定对象使用的字节数.一般来说,表达式sizeof(T)返回储存一个类型为T的对象所需要的字节数.  
 
 
-### 习题:利用布尔运算实现交换函数
-'''C
-//布尔运算实现交换两个数
-void inplace_swap(int *x, int *y){
-    *y = *x ^ *y;
-    *x = *x ^ *y;
-    *y = *x ^ *y;
-}
-
-//在交换函数的基础是实现数组的反转
-void reverse_array(int a[], int cnt){
-    int first,last;
-    for(first = 0,last = cnt -1;
-        first < last;
-        first++,last--)
-        inplace_swap(&a[first], &a[last]);
-}
-'''
