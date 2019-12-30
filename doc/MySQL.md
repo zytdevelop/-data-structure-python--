@@ -83,7 +83,7 @@
     数据类型是指列、存储过程参数、表达式和局部变量的数据特征，它决定了数据的存储格式，  
     代表了不同的信息类型，有一些数据是要存储为数据，数字当中有些是要存储为整数、小数、日期等等。
     
-    (2) [mysql常见数据类型](https://www.runoob.com/mysql/mysql-data-types.html)
+    (2) mysql常见数据类型 <https://www.runoob.com/mysql/mysql-data-types.html>
  
         
     
