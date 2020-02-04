@@ -19,3 +19,8 @@
 ***
 * INSERT INTO 插入新的行
 * ALTER TABLE [table name] ADD COLUMN [column name] 插入新的列
+* ALTER TABLE 表名字 ADD COLUMN 列名字 数据类型 约束;
+或:  
+  ALTER TABLE 表名字 ADD 列名字 数据类型 约束;
+
+*
