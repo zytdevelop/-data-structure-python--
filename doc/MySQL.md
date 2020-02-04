@@ -86,4 +86,20 @@
     (2) mysql常见数据类型 <https://www.runoob.com/mysql/mysql-data-types.html>
  
         
+## 3,3 mysql数据库之基本的SELECT语句
     
+    (1) 基本格式
+    ``` sql
+    SELECT 要查询的列名 FROM 表名 WHERE 限制条件;
+    ```
+
+    如果要查询表的所有内容，用 * 替代要查询的列名，代表要查询表中所有的列  
+    (2 LIKE 关键字可用于实现模糊查询，常见于搜索功能中。  
+    SQL中通配符是 _ 和 % 。
+
+
+
+
+
+
+
