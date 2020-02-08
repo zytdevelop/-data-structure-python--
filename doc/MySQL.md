@@ -89,7 +89,7 @@
 ## 3,3 mysql数据库之基本的SELECT语句
     
     (1) 基本格式
-    ``` sql
+    ``` 
     SELECT 要查询的列名 FROM 表名 WHERE 限制条件;
     ```
 
