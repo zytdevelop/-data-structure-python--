@@ -86,16 +86,26 @@
     (2) mysql常见数据类型 <https://www.runoob.com/mysql/mysql-data-types.html>
  
         
-## 3,3 mysql数据库之基本的SELECT语句
-    
-    (1) 基本格式
-    ``` 
-    SELECT 要查询的列名 FROM 表名 WHERE 限制条件;
-    ```
+## 3.3 mysql数据表必备知识之创建表
+	简介:讲解表是怎么创建,以及常见的约束条件举例
 
-    如果要查询表的所有内容，用 * 替代要查询的列名，代表要查询表中所有的列  
-    (2 LIKE 关键字可用于实现模糊查询，常见于搜索功能中。  
-    SQL中通配符是 _ 和 % 。
+	语法:
+	CREATE TABLE 表名{
+					字段1 字段类型1 约束条件1 说明1,
+					字段2 字段类型2 约束条件2 说明2,
+					字段3 字段类型3 约束条件3 说明3
+					};
+	约束条件:
+		comment			--说明注释
+		not null		--非空
+		default			--默认值
+		unsigned		--无符号(即正数)
+		auto_increment  --自增
+		zerofill		--自动填充零
+		unique key		--唯一值
+
+    
+
 
 
 
