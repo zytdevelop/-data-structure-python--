@@ -90,11 +90,13 @@
 	简介:讲解表是怎么创建,以及常见的约束条件举例
 
 	语法:
-	CREATE TABLE 表名{
+	```
+	CREATE TABLE 表名(
 					字段1 字段类型1 约束条件1 说明1,
 					字段2 字段类型2 约束条件2 说明2,
 					字段3 字段类型3 约束条件3 说明3
-					};
+					);
+	```
 	约束条件:
 		comment			--说明注释
 		not null		--非空
@@ -105,13 +107,14 @@
 		unique key		--唯一值
 
     实际例子:
-CREATE TABLE student{
+	```
+	CREATE TABLE student(
 					id tinyint not null auto_increment,
 					name varchar(20)  default null,
 					class varchar(50) default null,
 					sex char(5) default '男'
-					};
-
+		);
+	```
 
 
 
