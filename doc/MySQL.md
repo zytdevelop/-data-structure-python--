@@ -104,7 +104,14 @@
 		zerofill		--自动填充零
 		unique key		--唯一值
 
-    
+    实际例子:
+CREATE TABLE student{
+					id tinyint not null auto_increment,
+					name varchar(20)  default null,
+					class varchar(50) default null,
+					sex char(5) default '男'
+					};
+
 
 
 
