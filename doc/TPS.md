@@ -28,5 +28,5 @@ QPS（TPS）= 并发数 / 平均响应时间
 或者  
 并发数 = QPS * 平均响应时间
 
-## 参考
+## 原文
 - [1] [TPS、QPS和系统吞吐量的区别和理解](https://blog.csdn.net/u010889616/article/details/83245695)
